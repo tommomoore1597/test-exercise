@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 :root {
-  --color-primary: #184269;
+  --color-primary: #34344d;
   --color-secondary: #f4f4f4;
 }
 
@@ -55,3 +55,89 @@ iframe {
 }
 
 /* your styles here */
+
+h3 {
+  font-size: 24px;
+  line-height: 35px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 55px;
+}
+
+.card {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  width: 312px;
+  padding: 1.5rem;
+  border-radius: 0px 20px;
+}
+
+.card-inner {
+  position: relative;
+}
+
+.connect {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.left-box {
+  bottom: 0;
+  right: -80px;
+  height: 50%;
+  width: 45px;
+  border-radius: 30px 0px 30px 0px;
+  border: solid 3px;
+  border-color: transparent #3296ff #3296ff transparent;
+  position: absolute;
+}
+
+.right-box {
+  left: 137px;
+  top: 0;
+  height: 50%;
+  width: 45px;
+  border-radius: 30px 0px 30px 0px;
+  border: solid 3px;
+  border-color: #3296ff transparent transparent #3296ff;
+  position: absolute;
+}
+
+.top-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #3296ff;
+  border-radius: 100%;
+  position: absolute;
+  top: -8;
+  left: 185px;
+}
+
+.bottom-circle {
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-primary);
+  border: solid #3296ff;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -10;
+  right: -32;
+}
