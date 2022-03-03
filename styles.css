@@ -56,6 +56,8 @@ iframe {
 
 /* your styles here */
 
+/* Typography Styles */
+
 h3 {
   font-size: 24px;
   line-height: 35px;
@@ -68,6 +70,8 @@ p {
   font-weight: normal;
   line-height: 26px;
 }
+
+/* card styles */
 .row {
   display: flex;
 }
@@ -89,6 +93,9 @@ p {
   position: relative;
 }
 
+/* Connector Styles */
+
+/* Height was made 100% so graphical connectors would flex to the size of the cards */
 .connect {
   width: 60px;
   height: 100%;
@@ -98,6 +105,7 @@ p {
   bottom: 0;
 }
 
+/* Border color property and the transparent value was used to create the graphic */
 
 .left-box {
   bottom: 0;
@@ -140,4 +148,78 @@ p {
   position: absolute;
   bottom: -10;
   right: -32;
+}
+
+/* Other Colours for additional connectors. Can be utilised by using the appropriate class */
+
+/* Red Connector */
+
+#connect2 .top-circle {
+  background-color: #ff5a0a;
+}
+
+#connect2 .right-box {
+  border-color: #ff5a0a transparent transparent #ff5a0a;
+}
+
+#connect2 .left-box {
+  border-color: transparent #ff5a0a #ff5a0a transparent;
+}
+
+#connect2 .bottom-circle {
+  border-color: #ff5a0a;
+}
+
+/* Green Connector */
+
+#connect3 .top-circle {
+  background-color: #46aa2d;
+}
+
+#connect3 .right-box {
+  border-color: #46aa2d transparent transparent #46aa2d;
+}
+
+#connect3 .left-box {
+  border-color: transparent #46aa2d #46aa2d transparent;
+}
+
+#connect3 .bottom-circle {
+  border-color: #46aa2d;
+}
+
+/* Teal Connector */
+
+#connect4 .top-circle {
+  background-color: #00a891;
+}
+
+#connect4 .right-box {
+  border-color: #00a891 transparent transparent #00a891;
+}
+
+#connect4 .left-box {
+  border-color: transparent #00a891 #00a891 transparent;
+}
+
+#connect4 .bottom-circle {
+  border-color: #00a891;
+}
+
+/* Yellow Connector */
+
+#connect5 .top-circle {
+  background-color: #ffdc00;
+}
+
+#connect5 .right-box {
+  border-color: #ffdc00 transparent transparent #ffdc00;
+}
+
+#connect5 .left-box {
+  border-color: transparent #ffdc00 #ffdc00 transparent;
+}
+
+#connect5 .bottom-circle {
+  border-color: #ffdc00;
 }
